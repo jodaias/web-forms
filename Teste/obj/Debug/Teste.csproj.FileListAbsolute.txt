@@ -1,0 +1,12 @@
+D:\PESSOAIS\PROJETOS\02- C#\website\Teste\obj\Debug\Teste.csproj.CoreCompileInputs.cache
+D:\PESSOAIS\PROJETOS\02- C#\website\Teste\bin\Debug\Teste.exe.config
+D:\PESSOAIS\PROJETOS\02- C#\website\Teste\bin\Debug\Teste.exe
+D:\PESSOAIS\PROJETOS\02- C#\website\Teste\bin\Debug\Teste.pdb
+D:\PESSOAIS\PROJETOS\02- C#\website\Teste\bin\Debug\Business.dll
+D:\PESSOAIS\PROJETOS\02- C#\website\Teste\bin\Debug\Database.dll
+D:\PESSOAIS\PROJETOS\02- C#\website\Teste\bin\Debug\Business.pdb
+D:\PESSOAIS\PROJETOS\02- C#\website\Teste\bin\Debug\Database.pdb
+D:\PESSOAIS\PROJETOS\02- C#\website\Teste\obj\Debug\Teste.csprojAssemblyReference.cache
+D:\PESSOAIS\PROJETOS\02- C#\website\Teste\obj\Debug\Teste.csproj.CopyComplete
+D:\PESSOAIS\PROJETOS\02- C#\website\Teste\obj\Debug\Teste.exe
+D:\PESSOAIS\PROJETOS\02- C#\website\Teste\obj\Debug\Teste.pdb
