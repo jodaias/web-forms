@@ -4,14 +4,22 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using website.src;
 
 namespace website
 {
-    public partial class Default : System.Web.UI.Page
+    public partial class Default : FilterPage
     {
         public List<Contato> contatos = new List<Contato>();
         protected void Page_Load(object sender, EventArgs e)
         {
+            HttpCookie cookie = new HttpCookie("cname", "12345");
+            cookie.Expires.Add(new TimeSpan(2, 0, 0));
+            //cookie.HttpOnly = false;
+            cookie.HttpOnly = true;
+            Response.Cookies.Add(cookie);
+
+
             if (Session["email"] == null)
             {
                 Logado.Visible = false;

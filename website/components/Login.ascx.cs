@@ -25,10 +25,9 @@ namespace website
 
             Session["email"] = login;
             Session["senha"] = senha;
-
+            
             if (login == "jodaias" && senha == "12345678")
             {
-                Page.ClientScript.RegisterClientScriptBlock(this.GetType(), "alerta", "<script>alert('" + login + " entrou com sucesso.');</script>");
                 Response.Redirect("/");
             }
             else

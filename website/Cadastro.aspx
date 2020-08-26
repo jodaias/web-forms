@@ -1,15 +1,16 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Cadastro.aspx.cs" Inherits="website.Cadastro" %>
 
-<%@ Register src="Login.ascx" tagname="Login" tagprefix="uc1" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title></title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="scripts/jquery.cookie.js"></script>
     <style>
-        img{
+        img {
             width: 100px;
         }
     </style>
@@ -17,9 +18,13 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <uc1:Login ID="ctrLogin" runat="server" />
-        </div>
-        <div>
+            <ul>
+                <li><a href="../Default.aspx">Home</a></li>
+                <li><a href="../Cadastro.aspx">Cadastro</a></li>
+                <li><a href="../Default2.aspx">Página 1</a></li>
+                <li><a href="../Default3.aspx">Página 2</a></li>
+                <li><a href="../Default4.aspx">Página 3</a></li>
+            </ul>
             <asp:Panel ID="pnlCamposDeCadastro" runat="server">
                 <asp:Label ID="Label1" runat="server" Text="Nome"></asp:Label>
                 <asp:TextBox ID="txtNome" runat="server"></asp:TextBox>
@@ -29,7 +34,7 @@
                 <br />
                 <asp:Label ID="Label3" runat="server" Text="Foto"></asp:Label>
                 <asp:FileUpload ID="fileFoto" runat="server" />
-                <br />                
+                <br />
                 <br />
                 <asp:Button ID="btnSalvar" runat="server" Text="Salvar" OnClick="btnSalvar_Click" />
             </asp:Panel>

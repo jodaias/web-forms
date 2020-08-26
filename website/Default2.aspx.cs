@@ -4,10 +4,11 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using website.src;
 
 namespace website
 {
-    public partial class Default2 : System.Web.UI.Page
+    public partial class Default2 : FilterPage
     {
         protected void Page_Load(object sender, EventArgs e)
         {

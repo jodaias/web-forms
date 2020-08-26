@@ -11,7 +11,7 @@ namespace website
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            ctrLogin.Mensagem = "Form de Cadastro";
+            Response.Write(Request.Cookies["cname"].Value.ToString());
             mostrarLista();
         }
 

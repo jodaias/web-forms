@@ -17,6 +17,7 @@
     <div id="Logado" runat="server">
         <ul>
             <li><a href="../Default.aspx">Home</a></li>
+            <li><a href="../Cadastro.aspx">Cadastro</a></li>
             <li><a href="../Default2.aspx">Página 1</a></li>
             <li><a href="../Default3.aspx">Página 2</a></li>
             <li><a href="../Default4.aspx">Página 3</a></li>
