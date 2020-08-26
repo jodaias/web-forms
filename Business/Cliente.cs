@@ -27,7 +27,8 @@ namespace Business
 
         public static Cliente BuscaPorId(int id)
         {
-            var dados = Database.Cliente.BuscarPorId(id);
+            //var dados = Database.Cliente.BuscarPorId(id);
+            var dados = Database.Cliente.BuscarPorProcedureId(id);
             var cliente = new Cliente();
             foreach (DataRow row in dados.Rows)
             {

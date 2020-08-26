@@ -12,7 +12,7 @@ namespace Teste
         static void Main(string[] args)
         {
             var pedidos = Pedido.Busca();
-
+            var cliente = Cliente.BuscaPorId(2);
             foreach (var pedido in pedidos)
             {
                 Console.WriteLine("======== Pedido ======");
@@ -25,6 +25,8 @@ namespace Teste
                 }
                 Console.WriteLine("Valor total: " + pedido.ValorTotal);
             }
+
+            Console.WriteLine(cliente.Nome);
 
             Console.ReadKey();
         }
